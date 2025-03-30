@@ -7,7 +7,7 @@ import viteLogo from '/vite.svg';
 
 function App() {
   const [count, setCount] = useState(0);
-  const example12 = { name: 'John', age: 30, location: 'New York' };
+  const hexample1234 = { name: 'John', age: 30, location: 'New York' };
 
   return (
     <>
