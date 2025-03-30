@@ -10,10 +10,10 @@ import tsConfig from './eslint/typescript.mjs';
 
 export default [
   {
-    ignores: ['src/vite-env.d.ts'],
+    ignores: ['eslint.config.mjs', 'eslint/**/*.mjs', 'prettier.config.mjs', 'prettier/**/*.mjs'],
   },
   {
-    files: ['**/*.{js,mjs,cjs,ts,jsx,tsx}'],
+    files: ['src/**/*.{js,mjs,cjs,ts,jsx,tsx}'], // src 폴더 내 코드 파일만 검사
     languageOptions: {
       globals: {
         ...globals.browser,
