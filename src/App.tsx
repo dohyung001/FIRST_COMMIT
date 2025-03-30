@@ -7,7 +7,7 @@ import viteLogo from '/vite.svg';
 
 function App() {
   const [count, setCount] = useState(0);
-  const example = { name: 'John', age: 30, location: 'New York' };
+  const example1 = { name: 'John', age: 30, location: 'New York' };
 
   return (
     <>
